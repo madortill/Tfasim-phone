@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/generic/logo.svg" type="image/png" sizes="any">
+    <link rel="stylesheet" type="text/css" href="style/skarim-mitkadmim-exer.css">
+    <script src="assets/jquery-3.4.1.min.js"></script>
+    <!-- <script src="script/drag-code.js"></script> -->
+    <script src="script/drag.js"></script>
+
+    <script src="script/skarim-mitkadmim.js"></script>
+    <title>לומדת טפסים</title>
+</head>
+
+<body>
+    <header>
+        <div id="topic">לומדת טפסים</div>
+        <div class="space"></div>
+    </header>
+    <div class="opening">
+        <div class="opening-speech">
+            שלום בלומדה זו עליכם למלא טופס כזה וכזה, באופן כזה וכזה.
+            <h1>בהצלחה!</h1>
+            <button class="start-btn">התחילו <img src="assets/images/start.svg"/></button>
+            <button class="about-btn">אודות</buton>
+        </div>
+        <img class="speechbubble" src="assets/images/skarim-mitksdmim-exer/speechbubble.svg" />
+        <div class="girl">
+
+        </div>
+    </div>
+    <div class="explanation">
+            הסבר על הטופס, לורם איפסום דולור סיט אמט מוסן מנת להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורך. קונדימנטום קורס בליקרה, נונסיטי קלובר בריקנה סטום, לפריקך צטריק לרטי. נולום ארווס סאפיאן פיסילוס קוויס אקווזמן ושבעגט ליבם סולגק
+    </div>
+    <div class="girl">
+            
+    </div>
+    <img class="next-btn" src="assets/images/next.svg"/>
+    <div class="info">
+        <header>
+            <div id="topic">לומדת טפסים</div>
+            <div class="space"></div>
+        </header>
+    
+        <div class="main">
+          <div>
+              <img class="x" src="assets/images/x.svg" />
+            <div class="about">
+              אודות
+            </div>
+            <div class="row">
+              ראש מדור טי"ל: <span class="name">רס"ר שלומי אוגרן</span>
+            </div>
+            <div class="row">
+              אפיון תוצר הדרכתי : <span class="name">רב"ט גל גנסין</span>
+            </div>
+            <div class="row">
+              תכנות : <span class="name">סמל נועה עובדיה, רב"ט גל גנסין, רב"ט דרור אברמסון</span>
+            </div>
+            <div class="row">
+              עיצוב : <span class="name">טור' מייה ליבנה</span>
+            </div>
+            <div class="row">
+              מומחה תוכן: <span class="name">?</span>
+            </div>
+            <div class="row">
+              גירסה: <span class="name">2020 1.0</span>
+            </div>
+          </div>
+          <img id="logos" src="assets/images/logo.svg">
+        </div>
+    
+      </div>
+    <div class="screen marking inactive">
+
+        <div class="speech">
+
+        </div>
+        <img class="triangle" src="assets/images/skarim-mitksdmim-exer/speechbubble.svg">
+        <div class="bottom">
+            <div class="instructions">
+                <span class="highlight blue">
+                    לחצו
+                    <img class="marker" src="assets/images/skarim-mitksdmim-exer/marker.svg">
+                </span>
+                על המילים <br>
+                שחשוב שנכתוב <br>
+                בטופס 101
+
+                <div class="counter">
+
+                </div>
+            </div>
+        </div>
+        <img onclick="helpTofes()" class="help" src="assets/images/skarim-mitksdmim-exer/help.svg">
+        <div class="help-tofes inactive">
+            <img src="assets/images/skarim-mitksdmim-exer/tofes.svg">
+            <img onclick="helpTofes()" class="exit" src="assets/images/skarim-mitksdmim-exer/help-x.svg">
+        </div>
+    </div>
+
+    <div class="screen mid-summery inactive">
+        <div class="speech">
+            <div class="congrats center">
+                <div>
+                    כל הכבוד!
+                </div>
+            </div>
+            <img src="assets/images/skarim-mitksdmim-exer/gz.svg">
+            <div class="word-bank"></div>
+        </div>
+        <img class="triangle" src="assets/images/skarim-mitksdmim-exer/speechbubble.svg">
+        <div>
+            <img class="next" src="assets/images/skarim-mitksdmim-exer/next.svg">
+        </div>
+    </div>
+
+    <div class="screen tofes inactive">
+        <img onclick="helpStory()" class="help" src="assets/images/skarim-mitksdmim-exer/help.svg">
+        <div class="help-story inactive">
+            <div class="story">
+            </div>
+            <img class="triangle" src="assets/images/skarim-mitksdmim-exer/speechbubble.svg">
+            <img onclick="helpStory()" class="exit" src="assets/images/skarim-mitksdmim-exer/help-x.svg">
+        </div>
+        <div class="tofes101">
+            <div class="tofes-answers">
+                <div class="tofes-text index4 target">ישראל ישראלי</div>
+                <div class="tofes-text index5 target">1234567</div>
+                <div class="tofes-text index6 target">14:55</div>
+                <div class="tofes-text index1 target">15:00</div>
+                <div class="tofes-text index0 target">12/5/2020</div>
+                <div class="tofes-text index3 target">חופ"ל בה"ד 10</div>
+                <div class="tofes-X index8 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <div class="tofes-X index12 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- ללא פגיעה בנתיב אוויר -->
+                <div class="tofes-X index9 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+                <!-- ללא פגיחעה בנשימה -->
+                <div class="tofes-X index10 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+                <!-- פתחתי לו וריד -->
+                <!-- חמצן -->
+                <div class="tofes-X index26 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+
+
+                <!-- פתחתי לו וריד -->
+                <div class="tofes-X index22 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- לא בהלם -->
+                <div class="tofes-X index18 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+                <!-- 26 נשימות -->
+                <div class="tofes-text index14 target">26</div>
+
+                <!-- לחץ דם 70/100 -->
+                <div class="tofes-text index17 target">70/100</div>
+                <!-- סיטורציה של 97% -->
+                <div class="tofes-text index15 target">97%</div>
+                <!-- דופק של 110 פעימות -->
+                <div class="tofes-text index16 target">110</div>
+
+                <!-- בשעה 13:01 -->
+                <div class="tofes-text index13 target">15:01</div>
+
+                <!-- כדור שנפלט -->
+                <div class="tofes-text index7 target">פגיעת גפיים מירי
+                    <div class="tofes-circle">
+                        <img src="assets/images/skarim-mitksdmim-exer/circle.svg">
+                    </div>
+                </div>
+
+
+                <!-- חור ירי בזרוע ימין -->
+                <div class="tofes-text index11 target">חור ירי בזרוע ימין<br> ושטף דם</div>
+
+                <!-- לבית חולים סורוקה -->
+                <div class="tofes-text index28 target">אמבולנס &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 15:10 &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp &nbsp בי"ח
+                    סורוקה
+                    <div class="inside-text">אמבולנס &nbsp קרה"ד &nbsp &nbsp &nbsp
+                        15:20
+                        &nbsp
+                        &nbsp
+                        15:45
+                        &nbsp
+                        &nbsp
+                        רופא
+                        &nbsp
+                        &nbsp &nbsp &nbsp &nbsp
+                        קרה"ד
+                        &nbsp
+                        בי"ח סורוקה
+                    </div>
+                </div>
+
+                <!-- הפשטה -->
+                <div class="tofes-X index19 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- הפיכה -->
+                <div class="tofes-X index20 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- אקטיק -->
+                <div class="tofes-text index25 target">אקטיק 100mg</div>
+
+                <!-- אמבולנס -->
+                <div class="tofes-X index24 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+                <!-- מטפל בכיר -->
+                <div class="tofes-X index23 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- פינוי דחוף -->
+                <div class="tofes-X index27 target">
+                    <img src="assets/images/skarim-mitksdmim-exer/x.svg">
+                </div>
+
+                <!-- פרטיו של ישראל ישראלי -->
+                <div class="tofes-text index30 target">1234567 &nbsp &nbsp &nbsp ישראל &nbsp &nbsp &nbsp &nbsp ישראלי &nbsp
+                    &nbsp &nbsp &nbsp &nbsp &nbsp
+                    19 &nbsp &nbsp &nbsp &nbsp &nbsp רב"ט &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp בה"ד 10 &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp חובה
+                    <br> <br> <br>
+                    &nbsp 14:55 &nbsp מטווחים קרה"ד &nbsp 15:15 מרפאת קרה"ד
+                    &nbsp מרפאה &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp חייל
+                </div>
+
+                <!-- חופי -->
+                <div class="tofes-text index2 target">2345678 &nbsp &nbsp סמל &nbsp &nbsp &nbsp חופי החופל בה"ד 10 &nbsp &nbsp
+                    חופל &nbsp &nbsp &nbsp &nbsp ------ &nbsp &nbsp &nbsp &nbsp &nbsp 15:00
+                </div>
+
+                <!-- דוקטור דוקטור -->
+                <div class="tofes-text index31 target">3456789 &nbsp &nbsp סגן &nbsp &nbsp &nbsp דוקטור דוקטור קרה"ד &nbsp
+                    &nbsp
+                    חופל &nbsp &nbsp &nbsp &nbsp כללית &nbsp &nbsp &nbsp &nbsp 15:15
+                </div>
+
+                <!-- הטיפול הראשוני כחובש -->
+                <div class="tofes-text index29 target">חופ"ל &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp בה"ד 10 &nbsp &nbsp &nbsp
+                    15:00
+                    &nbsp
+                    &nbsp
+                    ביצוע ח"ע CAT על זרוע ימין, פתיחת וריד
+                </div>
+
+                <!-- מרפאת קריית ההדרכה -->
+                <div class="tofes-text index21 target">צוות מרפאה &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp קרה"ד &nbsp &nbsp &nbsp
+                    15:15
+                    &nbsp
+                    &nbsp
+                    מתן אקטיק, מתן חמצן 100% במסיכה
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+            <img src="assets/images/skarim-mitksdmim-exer/tofes.svg">
+
+        </div>
+
+        <div class="down-arrow">
+            <img src="assets/images/skarim-mitksdmim-exer/down.svg">
+        </div>
+
+        <div class="word-bank target reset">
+            <!-- <img class="down" src="assets/images/skarim-mitksdmim-exer/down.svg"> -->
+        </div>
+
+    </div>
+
+    <div class="screen finish inactive">
+
+        <img class="clipboard" src="assets/images/skarim-mitksdmim-exer/clipboard.svg">
+        <div class="text-container">
+        <div class="finish-headline">כל הכבוד!</div>
+
+        <div class="finish-text">הצלחתם למלא את כל הטופס.</div>
+
+    </div>
+    </div>
+    <div class="layer">
+        <div class="dragover"></div>
+    </div>
+</body>
+
+</html>

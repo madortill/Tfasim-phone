@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-188 150.3 233.8 493.8" style="enable-background:new -188 150.3 233.8 493.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{clip-path:url(#SVGID_5_);}
+	.st3{clip-path:url(#SVGID_7_);}
+	.st4{clip-path:url(#SVGID_5_);fill:url(#SVGID_8_);fill-opacity:0.95;}
+</style>
+<title>Artboard 41</title>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-188" y="150.3" width="233.8" height="493.8"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-188" y1="696.4052" x2="45.76" y2="696.4052" gradientTransform="matrix(1 0 0 1 0 -298.1102)">
+				<stop  offset="1.000000e-002" style="stop-color:#F1F2F2"/>
+				<stop  offset="1" style="stop-color:#E6E7E8"/>
+			</linearGradient>
+			<rect x="-188" y="151.4" class="st1" width="233.8" height="493.8"/>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_4_" x="-188" y="150.3" width="233.8" height="494.9"/>
+					</defs>
+					<clipPath id="SVGID_5_">
+						<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st2">
+						<g>
+							<g>
+								<defs>
+									<rect id="SVGID_6_" x="-301.6" y="86.2" width="610.6" height="556.6"/>
+								</defs>
+								<clipPath id="SVGID_7_">
+									<use xlink:href="#SVGID_6_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st3">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="2254" height="1503" xlink:href="800F133B.jpeg"  transform="matrix(0.4591 0 0 0.4591 -310.2952 -37.99)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					
+						<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="-257.0129" y1="522.7283" x2="111.9671" y2="865.1383" gradientTransform="matrix(1 0 0 1 0 -298.1102)">
+						<stop  offset="0.3265" style="stop-color:#6097D0"/>
+						<stop  offset="0.6786" style="stop-color:#5D71AA"/>
+					</linearGradient>
+					<rect x="-188" y="150.3" class="st4" width="233.8" height="493.8"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
